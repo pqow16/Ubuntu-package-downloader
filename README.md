@@ -10,8 +10,8 @@ Should work in most OS which can run Python.
 Requirements
 ---
 Python (Tested with 3.9.10)
-    - requests
-    - beautifulsoup4
+- requests
+- beautifulsoup4
 
 
 Usage

@@ -1,0 +1,11 @@
+{
+    "packages" : ["rabbitmq-server"],
+    "distribution" : "focal",
+    "architecture" : "amd64",
+    "favorite_mirrors" : [],
+    "want_recommendations" : false,
+    "want_suggestions" : false,
+    "use_local_cache" : true,
+    "request_delay" : 0.5,
+    "retry_delay" : 3.0
+}

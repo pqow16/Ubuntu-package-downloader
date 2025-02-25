@@ -25,11 +25,11 @@ Usage
 
 Settings
 ---
-packages
-: The packages you want to download.
+**packages**
+The packages you want to download.
 
-distribution
-: Target Ubuntu distribution
+**distribution**
+Target Ubuntu distribution
 - focal (for 20.04 LTS)
 - focal-updates
 - jammy (for 22.04.1 LTS)
@@ -37,30 +37,30 @@ distribution
 - noble (for 24.04 LTS)
 - etc...
     
-architecture
-: Target architecture
+**architecture**
+Target architecture
 - amd64
 - arm64
 - armhf
 - etc...
     
-favorite_mirrors
-: The program will use download mirror listed here first. If none, then program will use the first available one.
+**favorite_mirrors**
+The program will use download mirror listed here first. If none, then program will use the first available one.
 
-want_recommendations
-: Whether you want to download the "recommends" packages
+**want_recommendations**
+Whether you want to download the "recommends" packages
 
-want_suggestions
-: Whether you want to download the "suggests" packages
+**want_suggestions**
+Whether you want to download the "suggests" packages
 
-use_local_cache
-: Save the queried results into .cache/, to improve speed for next time
+**use_local_cache**
+Save the queried results into .cache/, to improve speed for next time
 
-request_delay
-: The delay time after each query request. Larger to reduce server burden
+**request_delay**
+The delay time after each query request. Larger to reduce server burden
 
-retry_delay
-: The delay time after each Internal Server Error response. Larger to reduce server burden
+**retry_delay**
+The delay time after each Internal Server Error response. Larger to reduce server burden
 
 
 Follow up

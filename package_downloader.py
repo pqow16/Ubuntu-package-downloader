@@ -301,6 +301,7 @@ class UbuntuPackageDownloader:
             #print(f"Skip downloaded package: {package_name}")
             return
             
+        os.makedirs("download", exist_ok=True)
         print(f"Download package: {package_name}")
         
         div_content = arch_page.find("div", {"id": "content"})

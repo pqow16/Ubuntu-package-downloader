@@ -26,9 +26,11 @@ Usage
 Settings
 ---
 **packages**
+<br>
 The packages you want to download.
 
 **distribution**
+<br>
 Target Ubuntu distribution
 - focal (for 20.04 LTS)
 - focal-updates
@@ -38,6 +40,7 @@ Target Ubuntu distribution
 - etc...
     
 **architecture**
+<br>
 Target architecture
 - amd64
 - arm64
@@ -45,21 +48,27 @@ Target architecture
 - etc...
     
 **favorite_mirrors**
+<br>
 The program will use download mirror listed here first. If none, then program will use the first available one.
 
 **want_recommendations**
+<br>
 Whether you want to download the "recommends" packages
 
 **want_suggestions**
+<br>
 Whether you want to download the "suggests" packages
 
 **use_local_cache**
+<br>
 Save the queried results into .cache/, to improve speed for next time
 
 **request_delay**
+<br>
 The delay time after each query request. Larger to reduce server burden
 
 **retry_delay**
+<br>
 The delay time after each Internal Server Error response. Larger to reduce server burden
 
 

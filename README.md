@@ -30,19 +30,19 @@ packages
 
 distribution
 : Target Ubuntu distribution
-    - focal (for 20.04 LTS)
-    - focal-updates
-    - jammy (for 22.04.1 LTS)
-    - jammy-updates
-    - noble (for 24.04 LTS)
-    - etc...
+- focal (for 20.04 LTS)
+- focal-updates
+- jammy (for 22.04.1 LTS)
+- jammy-updates
+- noble (for 24.04 LTS)
+- etc...
     
 architecture
 : Target architecture
-    - amd64
-    - arm64
-    - armhf
-    - etc...
+- amd64
+- arm64
+- armhf
+- etc...
     
 favorite_mirrors
 : The program will use download mirror listed here first. If none, then program will use the first available one.
